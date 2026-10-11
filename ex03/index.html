@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors and Opacity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Color Palette</h1>
+        <p class="intro">Different ways to define colors in CSS</p>
+
+        <section class="palette">
+            <article class="color-card">
+                <div class="swatch named-color"></div>
+                <h2>Named Color</h2>
+                <p>tomato</p>
+            </article>
+
+            <article class="color-card">
+                <div class="swatch hex-color"></div>
+                <h2>HEX</h2>
+                <p>#3498DB</p>
+            </article>
+
+            <article class="color-card">
+                <div class="swatch rgb-color"></div>
+                <h2>RGB</h2>
+                <p>rgb(46, 204, 113)</p>
+            </article>
+
+            <article class="color-card">
+                <div class="swatch rgba-color"></div>
+                <h2>RGBA</h2>
+                <p>rgba(155, 89, 182, 0.5)</p>
+            </article>
+        </section>
+
+        <h2>Opacity and RGBA comparison</h2>
+
+        <section class="comparison">
+            <div class="comparison-box opacity-box">
+                <p class="child">This child fades too</p>
+                <strong>opacity: 0.5</strong>
+            </div>
+
+            <div class="comparison-box rgba-box">
+                <p class="child">This child stays opaque</p>
+                <strong>background uses rgba(..., 0.5)</strong>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

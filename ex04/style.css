@@ -1,0 +1,58 @@
+/* Universal reset: includes pseudo-elements in box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f3f4f6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.example {
+    width: 340px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    border: 10px solid #2563eb;
+    background-color: #bfdbfe;
+    text-align: center;
+}
+
+/* The declared 300px is only the content width */
+.content-box {
+    box-sizing: content-box;
+}
+
+/* The declared 300px includes content, padding, and border */
+.border-box {
+    box-sizing: border-box;
+}
+
+.total {
+    font-weight: bold;
+}

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #263238;
+    background-color: #f4f7fb;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro {
+    color: #607d8b;
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0 50px;
+}
+
+.color-card {
+    width: 190px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #00000015;
+}
+
+.swatch {
+    height: 100px;
+    border-radius: 8px;
+}
+
+.named-color {
+    background-color: tomato;
+}
+
+.hex-color {
+    background-color: #3498DB;
+}
+
+.rgb-color {
+    background-color: rgb(46, 204, 113);
+}
+
+.rgba-color {
+    background-color: rgba(155, 89, 182, 0.5);
+}
+
+.comparison {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.comparison-box {
+    width: 320px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.opacity-box {
+    background-color: #e74c3c;
+    opacity: 0.5;
+}
+
+.rgba-box {
+    background-color: rgba(231, 76, 60, 0.5);
+}
+
+.child {
+    margin: 0;
+    padding: 10px;
+    color: #102027;
+    background-color: white;
+    border-radius: 5px;
+}
