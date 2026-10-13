@@ -43,7 +43,8 @@ main {
     padding: 0 20px;
 }
 
-h1 {
+h1,
+main > h2 {
     text-align: center;
 }
 
@@ -74,6 +75,18 @@ h1 {
     border-radius: 20px;
     font-size: 12px;
     font-weight: bold;
+}
+
+.extra-content {
+    margin-top: 50px;
+}
+
+.content-block {
+    min-height: 300px;
+    margin: 20px 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .back-to-top {
